@@ -1,0 +1,4 @@
+interface:
+  display_name: "Belkin Video Assistant"
+  short_description: "Run the complete Belkin video workflow."
+  default_prompt: "Use $belkin-video-assistant to run the complete Belkin video workflow from brief through approved planning artifacts."
