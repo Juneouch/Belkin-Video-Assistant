@@ -37,7 +37,9 @@ P0 Intake & Context
 → P5 Optional Prompt Package
 → P6 Client Proposal Deck for ImageGen projects
 → QA Review and Delivery
-<img width="622" height="740" alt="Screenshot 2026-08-05 171249" src="https://github.com/user-attachments/assets/d22ca04b-c4f1-4226-806b-6b413a7c80c9" />
+
+<img width="622" height="740" alt="Screenshot 2026-08-05 171249" src="https://github.com/user-attachments/assets/0ca67f0e-1e6e-422d-9ca2-0e9b31578694" />
+
 
 ```
 
