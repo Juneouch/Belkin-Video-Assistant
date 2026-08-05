@@ -57,3 +57,34 @@ Its internal runtime tools manage deterministic project operations:
 - `validate_project.py` — manifest validation
 - `shot-language.md` — the sole compiler for English static storyboard prompts
 - PDF, presentation, and ImageGen capabilities — for approved planning deliverables only
+
+## Install in ChatGPT with Codex
+
+This is a local Codex Skill. Use the ChatGPT desktop app with Codex; it cannot be installed into a standard browser-only ChatGPT conversation that does not support local Skills.
+
+You do not need a GitHub account to install this public Skill. GitHub is only where the Skill files are stored. You need Internet access and a ChatGPT/Codex environment that supports Skills.
+
+### Install it
+
+1. Copy this repository link: [Juneouch/Belkin-Video-Assistant](https://github.com/Juneouch/Belkin-Video-Assistant).
+2. Open a new task in the ChatGPT desktop app with Codex.
+3. Paste the following message into the task:
+
+   ```text
+   Please install the public Codex Skill from https://github.com/Juneouch/Belkin-Video-Assistant.
+   The Skill is at the repository root (SKILL.md). Install it as belkin-video-assistant.
+   ```
+
+4. Let Codex complete the download and installation. You do not need to create a GitHub account, clone the repository, or use Git commands.
+5. Start a new Codex task and invoke the Skill with a request such as:
+
+   ```text
+   $belkin-video-assistant Help me plan a Belkin product video.
+   ```
+
+### If it does not appear
+
+- Restart Codex, then start a new task. Codex normally detects newly installed Skills automatically, but a restart refreshes the available Skill list.
+- If the repository link opens a `404` page, confirm that the repository has been published as public and that the link was copied exactly.
+- If Codex says `belkin-video-assistant` already exists, ask it to update the existing Skill instead of manually deleting files.
+- A GitHub account is only needed if you want to edit, publish, or contribute to the repository; it is not required to use this public Skill.
